@@ -1,0 +1,1444 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML Basic 1.0//EN"
+     "http://www.w3.org/TR/xhtml-basic/xhtml-basic10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+ <head>
+
+
+<script type="text/javascript" src="/static/js/analytics.js"></script>
+<script type="text/javascript">archive_analytics.values.server_name="wwwb-app7.us.archive.org";archive_analytics.values.server_ms=72;</script>
+<link type="text/css" rel="stylesheet" href="/static/css/banner-styles.css"/>
+
+
+  <title>In Search of...Spot</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <meta http-equiv="Content-Language" content="en-us" />
+  <meta name="Author" content="Amalgamation of Non-Aligned Lifeforms Starfleet" />
+  <meta name="Originator" content="vi editor" />
+  <meta name="Classification" content="humor" />
+  <meta name="KeyWords"
+       content="ANALS, Starfleet, Amalgamation, BOOBYPRIZE" />
+  <link href="anal.css" rel="stylesheet" title="ANALS" type="text/css"
+       media="screen" />
+  <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body>
+
+
+<!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script type="text/javascript" src="/static/js/disclaim-element.js" ></script>
+<script type="text/javascript" src="/static/js/graph-calc.js" ></script>
+<script type="text/javascript" src="/static/jflot/jquery.min.js" ></script>
+<script type="text/javascript">//<![CDATA[
+var __wm = (function(){
+var wbPrefix = "/web/";
+var wbCurrentUrl = "http://www.amalgamationstarfleet.org/isospot.htm";
+
+var firstYear = 1996;
+var imgWidth = 500,imgHeight = 27;
+var yearImgWidth = 25,monthImgWidth = 2;
+var displayDay = "28";
+var displayMonth = "Aug";
+var displayYear = "2008";
+var prettyMonths = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+var $D=document,$=function(n){return document.getElementById(n)};
+var trackerVal,curYear = -1,curMonth = -1;
+var yearTracker,monthTracker;
+function showTrackers(val) {
+  if (val===trackerVal) return;
+  var $ipp=$("wm-ipp");
+  var $y=$("displayYearEl"),$m=$("displayMonthEl"),$d=$("displayDayEl");
+  if (val) {
+    $ipp.className="hi";
+  } else {
+    $ipp.className="";
+    $y.innerHTML=displayYear;$m.innerHTML=displayMonth;$d.innerHTML=displayDay;
+  }
+  yearTracker.style.display=val?"inline":"none";
+  monthTracker.style.display=val?"inline":"none";
+  trackerVal = val;
+}
+function getElementX2(obj) {
+  var $e=jQuery(obj);
+  return (typeof $e=="undefined"||typeof $e.offset=="undefined")?
+    getElementX(obj):Math.round($e.offset().left);
+}
+function trackMouseMove(event,element) {
+  var eventX = getEventX(event);
+  var elementX = getElementX2(element);
+  var xOff = Math.min(Math.max(0, eventX - elementX),imgWidth);
+  var monthOff = xOff % yearImgWidth;
+
+  var year = Math.floor(xOff / yearImgWidth);
+  var monthOfYear = Math.min(11,Math.floor(monthOff / monthImgWidth));
+  // 1 extra border pixel at the left edge of the year:
+  var month = (year * 12) + monthOfYear;
+  var day = monthOff % 2==1?15:1;
+  var dateString = zeroPad(year + firstYear) + zeroPad(monthOfYear+1,2) +
+    zeroPad(day,2) + "000000";
+
+  $("displayYearEl").innerHTML=year+firstYear;
+  $("displayMonthEl").innerHTML=prettyMonths[monthOfYear];
+  // looks too jarring when it changes..
+  //$("displayDayEl").innerHTML=zeroPad(day,2);
+  var url = wbPrefix + dateString + '/' +  wbCurrentUrl;
+  $("wm-graph-anchor").href=url;
+
+  if(curYear != year) {
+    var yrOff = year * yearImgWidth;
+    yearTracker.style.left = yrOff + "px";
+    curYear = year;
+  }
+  if(curMonth != month) {
+    var mtOff = year + (month * monthImgWidth) + 1;
+    monthTracker.style.left = mtOff + "px";
+    curMonth = month;
+  }
+}
+function hideToolbar() {
+  $("wm-ipp").style.display="none";
+}
+function bootstrap() {
+  var $spk=$("wm-ipp-sparkline");
+  yearTracker=$D.createElement('div');
+  yearTracker.className='yt';
+  with(yearTracker.style){
+    display='none';width=yearImgWidth+"px";height=imgHeight+"px";
+  }
+  monthTracker=$D.createElement('div');
+  monthTracker.className='mt';
+  with(monthTracker.style){
+    display='none';width=monthImgWidth+"px";height=imgHeight+"px";
+  }
+  $spk.appendChild(yearTracker);
+  $spk.appendChild(monthTracker);
+
+  var $ipp=$("wm-ipp");
+  $ipp&&disclaimElement($ipp);
+}
+return{st:showTrackers,mv:trackMouseMove,h:hideToolbar,bt:bootstrap};
+})();//]]>
+</script>
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  min-width:800px !important;
+}
+</style>
+<div id="wm-ipp" lang="en" style="display:none;">
+
+<div style="position:fixed;left:0;top:0;width:100%!important">
+<div id="wm-ipp-inside">
+   <table style="width:100%;"><tbody><tr>
+   <td id="wm-logo">
+       <a href="/web/" title="Wayback Machine home page"><img src="/static/images/toolbar/wayback-toolbar-logo.png" alt="Wayback Machine" width="110" height="39" border="0" /></a>
+   </td>
+   <td class="c">
+       <table style="margin:0 auto;"><tbody><tr>
+       <td class="u" colspan="2">
+       <form target="_top" method="get" action="/web/form-submit.jsp" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://www.amalgamationstarfleet.org/isospot.htm" style="width:400px;" onfocus="this.focus();this.select();" /><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20080828052954" /><input type="submit" value="Go" /><span id="wm_tb_options" style="display:block;"></span></form>
+       </td>
+       <td class="n" rowspan="2">
+           <table><tbody>
+           <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+           <tr class="m">
+           	<td class="b" nowrap="nowrap">
+		
+		    Jul
+		
+		</td>
+		<td class="c" id="displayMonthEl" title="You are here: 5:29:54 Aug 28, 2008">AUG</td>
+		<td class="f" nowrap="nowrap">
+		
+		    Sep
+		
+                </td>
+	    </tr>
+           <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+           <tr class="d">
+               <td class="b" nowrap="nowrap">
+               
+                       <img src="/static/images/toolbar/wm_tb_prv_off.png" alt="Previous capture" width="14" height="16" border="0" />
+               
+               </td>
+               <td class="c" id="displayDayEl" style="width:34px;font-size:24px;" title="You are here: 5:29:54 Aug 28, 2008">28</td>
+	       <td class="f" nowrap="nowrap">
+               
+                   <img src="/static/images/toolbar/wm_tb_nxt_off.png" alt="Next capture" width="14" height="16" border="0"/>
+               
+	       </td>
+           </tr>
+           <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+           <tr class="y">
+	       <td class="b" nowrap="nowrap">
+               
+                   2007
+               
+               </td>
+               <td class="c" id="displayYearEl" title="You are here: 5:29:54 Aug 28, 2008">2008</td>
+	       <td class="f" nowrap="nowrap">
+               
+                   2009
+               
+	       </td>
+           </tr>
+           </tbody></table>
+       </td>
+       </tr>
+       <tr>
+       <td class="s">
+           <a class="t" href="/web/20080828052954*/http://www.amalgamationstarfleet.org/isospot.htm" title="See a list of every capture for this URL">1 captures</a>
+           <div class="r" title="Timespan for captures of this URL">28 Aug 08 - 28 Aug 08</div>
+       </td>
+       <td class="k">
+       <a href="" id="wm-graph-anchor">
+       <div id="wm-ipp-sparkline" title="Explore captures for this URL">
+	 <img id="sparklineImgId" alt="sparklines"
+		 onmouseover="__wm.st(1)" onmouseout="__wm.st(0)"
+		 onmousemove="__wm.mv(event,this)"
+		 width="500"
+		 height="27"
+		 border="0"
+		 src="/web/jsp/graph.jsp?graphdata=500_27_1996:-1:000000000000_1997:-1:000000000000_1998:-1:000000000000_1999:-1:000000000000_2000:-1:000000000000_2001:-1:000000000000_2002:-1:000000000000_2003:-1:000000000000_2004:-1:000000000000_2005:-1:000000000000_2006:-1:000000000000_2007:-1:000000000000_2008:7:000000010000_2009:-1:000000000000_2010:-1:000000000000_2011:-1:000000000000_2012:-1:000000000000_2013:-1:000000000000_2014:-1:000000000000_2015:-1:000000000000" />
+       </div>
+       </a>
+       </td>
+       </tr></tbody></table>
+   </td>
+   <td class="r">
+       <a href="#close" onclick="__wm.h();return false;" style="background-image:url(/static/images/toolbar/wm_tb_close.png);top:5px;" title="Close the toolbar">Close</a>
+       <a href="http://faq.web.archive.org/" style="background-image:url(/static/images/toolbar/wm_tb_help.png);bottom:5px;" title="Get some help using the Wayback Machine">Help</a>
+   </td>
+   </tr></tbody></table>
+</div>
+</div>
+</div>
+<script type="text/javascript">__wm.bt();</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+<div>
+
+<div class="coverpage">
+<h1>
+In Search of...Spot
+</h1>
+<h2>
+<span class="small">another almost original radio play by:</span>
+<br />
+ <span class="organization">
+   <acronym title="The Survivors of the Big Bang">SOB&sup2;</acronym> the
+   <acronym title="University of New Orleans">UNO</acronym>
+   <acronym title="Science Fiction and Fantasy">SF&amp;F</acronym> Club
+ </span>
+<br />
+&nbsp;
+<br />
+&copy; 1985, 2006 by the Amalgamation of Non-Aligned Lifeforms Starfleet
+</h2>
+
+<dl class="cast">
+<dt>
+Announcer
+</dt><dd>
+ Loud mouth and tier together of the plot
+</dd>
+<dt>
+Quirk
+</dt><dd>
+ Admiral and Captain of the Starship <span class="shipname">BOOBYPRIZE</span>
+</dd>
+<dt>
+T
+</dt><dd>
+ Harlemese Science Officer of the <span class="shipname">BOOBYPRIZE</span>
+</dd>
+<dt>
+Zulu
+</dt><dd>
+ Weapons Officer of the <span class="shipname">BOOBYPRIZE</span>
+</dd>
+<dt>
+&#39;<q>Bones</q>&#39; Maloy
+</dt><dd>
+ Surgeon General and Ship&#39;s Doctor
+</dd>
+<dt>
+<span title="originally was Upenda">Ijusta</span> Olhora
+</dt><dd>
+ Communications Officer and Maid
+</dd>
+<dt>
+Savage
+</dt><dd>
+ Navigator and Proteg&eacute; of Captain Spot
+</dd>
+<dt>
+<abbr title="mister">Mr.</abbr> Scotch
+</dt><dd>
+ Drunken fool of an engineer and Old Space Dog
+</dd>
+<dt>
+Spot
+</dt><dd>
+ Captain, Science Officer, and Cosmic Elf-sicle
+</dd>
+</dl>
+
+<dl class="cast">
+<dt>
+Cast Members
+</dt><dd>
+Gus, Liz, <acronym title="That Creole">T. C.</acronym>, and Vernon
+</dd>
+</dl>
+
+<h3>
+With Special Appearances by
+</h3><dl class="cast">
+<dt>
+Curly
+</dt><dd>
+ Stooge and Starship Repairman for General Titanics
+</dd>
+<dt>
+Panadol
+</dt><dd>
+ Jazzed-Up Leader of the <abbr title="pigeon team (don&#39;t ask)">P-team</abbr>
+ (Dum da dum dumm!)
+</dd>
+<dt>
+Krude
+</dt><dd>
+ Commander of the Klingfree/Remoulade Battle Fleet
+</dd>
+<dt>
+Dave Bowman
+</dt><dd>
+ Former Astronaut and Current Space Baby
+</dd>
+</dl>
+
+<h1>THE SAGA MISFIRES</h1>
+</div>
+
+<dl class="script">
+<dt>&nbsp;</dt>
+<dd>(Begin <span class="publication">Devo Corporate Anthem</span>)
+</dd>
+<dt>Announcer:</dt>
+<dd>The Son Broadcasting System takes pride in presenting, once again, the
+    <span class="organization">Not Yet Ready for Cocktail Time Players</span>,
+    a wholly owned subsidiary of the <span class="organization">Frontal Lobotomy
+    Jazz Ensemble</span>, in the final story of the middle trilogy of trilogies
+    of Star Yecch adventures &mdash; in other words, another Not-So-Original and
+    often plagiarizing radio play presented by the
+    <span class="organization">Survivors of the Big Bang &mdash; 
+    <acronym title="University of New Orleans">U.N.O.</acronym>&#39;s
+     Science Fiction and Fantasy Club</span>.
+</dd>
+<dd><br />(Fade <span class="publication">Anthem</span>)
+</dd>
+<dt>Announcer:</dt>
+<dd>In 1984, a group of then untried actors introduced here at CoastCon
+    the crew of the Amalgamation of Non-Aligned Lifeforms Starfleet..
+</dd>
+<dt>Vernon:</dt>
+<dd>That&#39;s <acronym title="Amalgamation of Non-Aligned Lifeforms Starfleet">
+    A.N.A.L.S.</acronym> to you and me...
+</dd>
+<dt>Announcer:</dt>
+<dd>Starship <span class="shipname">BOOBYPRIZE</span>.  On that first voyage,
+    they battled the not-so-evil <abbr title="doctor">Dr.</abbr> Who at
+    Darathacon &#39;86, and, as part of an elaborate scheme, killed off First
+    Officer <abbr title="mister">Mr.</abbr> Spot.  For those of you who
+    weren&#39;t here, this is what you missed:
+</dd>
+<dt>Olhora:</dt>
+<dd>Ow Lawsey, Massa Spot be daid!   He be daid!  Aunt Jemima!...
+</dd>
+<dt>Announcer:</dt>
+<dd>Last year, the crew of the <span class="shipname">BOOBYPRIZE</span> helped
+    the insipid Rabble Alliance defeat the evil emperor and the yucky Derth
+    Nader in <span class="publication">The Return of the 
+     <span class="shipname">BOOBYPRIZE</span></span>.  But, as luck would have
+    it, and this ship has none, their new weapon, the pharton torpedo, caused
+    massive destruction to the  <span class="shipname">BOOBYPRIZE</span>,
+    not to mention the Derth Star and the evil empire.  For those of you who
+    weren&#39;t here for <strong>that</strong> action-packed episode, here
+    is what <strong>you</strong> missed:
+</dd>
+<dd><br />(Phart, explosion)
+</dd>
+<dt>Bones:</dt>
+<dd>Ok, Jim, now you&#39;ve done it.  You&#39;ve gone and blown that apparently
+    uncompleted small moon to kingdom come and ourselves along with it.
+    You&#39;ve succeeded in destroying everything you&#39;ve known and loved.
+</dd>
+<dt>Liz:</dt>
+<dd>And you also missed the introduction of our new science officer, Ensign T:
+</dd>
+<dt>T:</dt>
+<dd>I pity the fool, pity the fool what touch my shiny new console!
+</dd>
+<dd><br />(Fade in <span class="publication">On a Wing and a Prayer</span>)
+</dd>
+<dt><acronym title="that creole">T.C.</acronym>:</dt>
+<dd>So, folks, this should all make for a whiz-bang play this year. But probably
+    not.  So sit back while the judges do their tallying and think of all the
+    better things you could be doing right now, like ...watching the Peopl&#39;s
+    Court .. or, the Gong Show, .. or, Best Little House on the Prairie .. or,
+    Green Acres .. or, Gilligan&#39;s Island ...
+</dd>
+<dd><br/>(Fade theme)
+</dd>
+<dt>(Spot):</dt>
+<dd>Help me.  Help me, Jim.  Take me home again.
+</dd>
+<dt>Quirk:</dt>
+<dd>Bones, did you hear that?
+</dd>
+<dt>Bones:</dt>
+<dd>Hear what, Jim?  (Pause.)  Oh, that.  It&#39;s just the noises from those
+    three guys putting the finishing touches on Spot&#39;s old quarters.
+    This tub&#39;s almost ready to get underway.
+</dd>
+<dt>Quirk:</dt>
+<dd>Bones, we&#39;ve got to get back out on his trail before the Amalgamation
+    catches up with us.  We&#39;ve got to get these repairs finished quickly.
+    I&#39;ve got to find him.
+</dd>
+<dt>Bones:</dt>
+<dd>Relax, Jim, Rleax.  Look, from what Scotch says, these three stooges are
+    the best renegade starship repairmen in the galaxy.  Why, when we get
+    finished, the <span class="shipname">BOOBYPRIZE</span> will be in a class
+    of her own.  Admiral Niagara&#39;s &#34;<q>Edsel</q>&#34; class will be a thing of
+    the past.  I like John Delorean&#39;s new Covair design.
+</dd>
+<dt>Savage:</dt>
+<dd>But Admiral, if my recollection is correct, Admiral Nader rejected a similar
+    design, saying it was &#34;<q>unsafe at any speed</q>&#34;.
+</dd>
+<dt>Quirk:</dt>
+<dd>I don&#39;t recall any such thing, <abbr title="lieutenant">Lt.</abbr>
+    Savage.  Anyway, these guys assure me it is the best they&#39;ve got, and
+    the quickest to be built.  Don&#39;t you realize the importance of finding
+    <abbr title="mister">Mr.</abbr> <abbr title="not now; wait for it">G.</abbr>
+    Spot as soon as possible?
+</dd>
+<dt>Savage:</dt>
+<dd>Yes, sir.  If we don&#39;t go after him, these guys have no show.  Besides
+    that, I&#39;d like to make sure he&#39;s dead, too, especially after what
+    he did to me on Genocide.  (pats stomach.)
+</dd>
+<dd><br />(Fade in <span class="publication">Twilight Zone Theme</span> during
+    the next line, timed to crescendo)
+</dd>
+<dt>Announcer:</dt>
+<dd>Witness this.  Submitted for your approval -- the plight of one James Tyrone
+    Quirk, Admiral of what is left to the <acronym
+    title="Amalgamation of Non-Aligned Lifeforms Starfleet">A.N.A.L.S.</acronym>
+    Starship <span class="shipname">BOOBYPRIZE</span>.  His former first mate
+    Spot was flushed into space in our first program, and in order to keep his
+    superiors from reviving the dead past, Quirk has begun a search across
+    space to find the body and utterly destroy it.  Driven by desire, he has
+    braved new worlds, sought out old friends, and boldy gone were some men have
+    gone before.  He has lost almost everything he knows and loves through the
+    use of the thentofore untried Pharton torpedo.  He has brought his ship here
+    to be repaired, to be redesigned, to better help his search.  But little
+    does he or his crew realize that while persuing this voyage, they have
+    taken a wrong turn.  Join them as they go reeling through <span
+    class="publication">The Budlight Zone ... In <acronym
+    title="three dimensions">3-D</acronym>!</span>
+</dd>
+<dd><br />(Cast <em>demonstrates</em> <acronym
+    title="three dimensions">3-D</acronym> as Twilight Zone theme crescendoes.)
+</dd>
+<dt>Curly:</dt>
+<dd>Nyukk, Nyukk, Nyukk.  Alright youse guys, the ship is finished.  Who gets
+    the bill?
+</dd>
+<dt>Quirk:</dt>
+<dd>Send it to the Amalgamation, care of first officer Spot.
+</dd>
+<dt>Curly:</dt>
+<dd>(Pause.)  Oh, I get it! That&#39;s the dead guy.  Wait a minute while I
+    figure in some more cost overruns.  (Cash register shtik) Sayonara!!
+</dd>
+<dt>Quirk:</dt>
+<dd>These General Titanics guys sure are swift.  (looks at bill)  And expensive.
+</dd>
+<dt>(Spot):</dt>
+<dd>Jim, take me home.  Take me home.
+</dd>
+<dt>Quirk:</dt>
+<dd>It&#39;s that voice again.  Zulu, get us out of here, now.
+</dd>
+<dt>Zulu:</dt>
+<dd>Yes, Cap&#39;n Quirk.  Heading?
+</dd>
+<dt>Bones:</dt>
+<dd>What do you think he is, a pervert?
+</dd>
+<dt>Zulu:</dt>
+<dd>No, Doctor.  I just wanna know where the hell we&#39;re going.
+</dd>
+<dt>Quirk:</dt>
+<dd>Scotchy has a theory.  Get the co-ordinates from him.
+</dd>
+<dt>(Spot):</dt>
+<dd>Jim, I must get to Mount Delaya...
+</dd>
+<dt>Olhora:</dt>
+<dd>I&#39;s tellin&#39; ya, this ship be haunted!  They ain&#39;t no noise, 
+    <abbr title="mister">Mr.</abbr> Spot&#39;s spirits be in dis place!
+    He come to pay us back fo&#39; what we don&#39; to him!  I know what to do! 
+    Get me some chickens and some snakes, an&#39; a King Edwards cigar, an&#39;
+    I&#39;ll get rid o&#39; that pointy-eared bastard fo&#39; good!
+</dd>
+<dt>Bones:</dt>
+<dd>You know Jim, Olhora&#39;s right.  Hysterical, but right.  It does sound
+    like Spot.
+</dd>
+<dt>Savage:</dt>
+<dd>Admiral, I do recall an ancient Vultron ritual where a Vultron may transfer
+    his eternal soul, his... KaKa, to another object or person to be later
+    reunited with his body.
+</dd>
+<dt>Zulu:</dt>
+<dd>Somp&#39;n &#39;bout all this stinks.
+</dd>
+<dt>Olhora:</dt>
+<dd>Sounds like we gettin&#39; in deeper an&#39; deeper.
+</dd>
+<dt>Quirk:</dt>
+<dd>Bones, do you think his ..KaKa.. has possessed the ship?
+</dd>
+<dt>Bones:</dt>
+<dd>Dammit, Jim, I&#39;m a doctor, not the Roto-Rooter man....  Wait.. if he
+    left it, it&#39;s got to be where he died -- and he drowned while stuck
+    to the terlit seat.  It must be in his bathroom.  (Panic:) Oh, no!
+    That&#39;s Scotch&#39;s quarters now!  <em>He</em> must have it.  Scotchy
+    must be the...
+</dd>
+<dt>Ship:</dt>
+<dd>Ding!  (Elevator door opens.)  Third floor, toiletries.
+</dd>
+<dt>Scotch:</dt>
+<dd>Top o&#39; the mornin&#39; to ya, Admiral.
+</dd>
+<dt>(Spot):</dt>
+<dd>Jim, take me home.  I must be reunited with my KaKa.
+</dd>
+<dt>Bones:</dt>
+<dd>He.. He&#39;s a ventriloquist!
+</dd>
+<dt>Olhora:</dt>
+<dd>See, I told ya, the man be possessed!  Get me some chickens an&#39; a King
+    Edwards cigar, I gotta prayer to <abbr title="saint">St.</abbr> Mitch
+    what&#39;ll knock yo&#39; socks off!
+</dd>
+<dt>Quirk:</dt>
+<dd>(Accusingly) Scotchy, you&#39;ve got <abbr title="mister">Mr.</abbr>
+    Spot&#39;s KaKa.
+</dd>
+<dt>Scotch:</dt>
+<dd>Beggin&#39; the Admiral&#39;s pardon, but I&#39;m not a pervert o&#39;
+    anythin&#39;.
+</dd>
+<dt>Bones:</dt>
+<dd>Spot&#39;s KaKa.  The Vultron essence.  His spirit.
+</dd>
+<dt>Scotch:</dt>
+<dd>Well, he did give me a bottle of Vultron Brandy.  It&#39;s bad, but I 
+    wouldna call it KaKa.
+</dd>
+<dt>Bones:</dt>
+<dd>No, No, not that.  His Soul.
+</dd>
+<dt>Olhora:</dt>
+<dd>I told ya!  You bein&#39; possessed by that pointy-eared devil.  Git me
+    some chickens...
+</dd>
+<dt>(Spot):</dt>
+<dd>Jim, I&#39;ve reformed.  I&#39;m better, bigger, faster, and (Yogi Bear)
+    smarter than your average Vultron, eh Boo-Boo?
+</dd>
+<dt>Quirk:</dt>
+<dd>Listen good, all of you.  I don&#39;t want <em>any</em> part of Spot on
+    this ship.  Let&#39;s get rid of him once and for all.
+</dd>
+<dt>Scotch:</dt>
+<dd>Aye.  <abbr title="lieutenant">Lt.</abbr> Olhora, would ye get me an open
+    frequency an&#39; patch it in?<br />(Static.)  This is Commander 
+    Montgomery Ward Scotch of the <span class="shipname">
+    <acronym title="Amalgamation Star Ship">ASS</acronym> BOOBYPRIZE</span>
+    calling the <abbr title="pigeon team (don&#39;t ask)">P-team</abbr>.
+    (Repeat.)
+</dd>
+<dt>Announcer:</dt>
+<dd>(Sound of helicopter)  In 2284, seven conventioneers were convicted by a
+    fandom court for a laugh they did not commit.  They promptly escaped from
+    the gopher hole of the maximum security prison d&#39;Iberville and escaped
+    in the sleeper ship Biloxi Bay, and went to the outer reaches of
+    Amalgamated Space.<br />
+    If you&#39;re in trouble, if your play needs another plot element and you
+    don&#39;t know who to turn to, maybe you can hire the 
+    <abbr title="pigeon team (don&#39;t ask)">P-team</abbr>.  But not today,
+    because Captain Spot, through the body of Engineer Scotch, has already
+    done so.  He has paid them to find his body, and to reunite him with
+    it.  Along the way, they found Ensign T, who left the 
+    <span class="shipname">BOOBYPRIZE</span> in search of his immense gold
+    chains <span title="that&#39;s thirteen weeks ago to you and me">sixty
+    five</span> stardates ago.
+</dd>
+<dt>T:</dt>
+<dd>That be las&#39; year to you an&#39; me.  (Pause.  Light static.)  I&#39;m
+    tellin&#39; ya, <abbr title="mister">Mr.</abbr> Scotch, if I find the fool
+    what threw my gold chains out de window, I slap his eva&#39; lovin&#39;
+    haid off.
+</dd>
+<dt>Scotch:</dt>
+<dd>(whispering) I need you.  I must get the body soon, and get the KaKa outta
+    here.
+</dd>
+<dt>Panadol:</dt>
+<dd><abbr title="mister">Mr.</abbr> Scotch, this is <abbr
+    title="colonel">Col.</abbr>Panadol Smith of the
+    <abbr title="pigeon team (don&#39;t ask)">P-team</abbr>.  We&#39;re
+    gettin&#39; there as fast as we can.  We appropriated some surplus
+    Amalgamation washing machines which your own Ensign T has transformed into
+    <acronym title="Washer/Argyle Propulsion">WArP</acronym> drives.  We have
+    located the body, and Drydock and Facemaker are loading it aboard right now.
+</dd>
+<dt>Scotch:</dt>
+<dd>(whispering) Be careful.  I dinna ken how I can sneak it aboard.
+</dd>
+<dt>Panadol:</dt>
+<dd>Don&#39;t worry about that.  We&#39;ll just disguise him as a surplus Maytag
+    and carry him in through the front door.  We&#39;ll be there in about five
+    minutes.
+</dd>
+<dt>Scotch:</dt>
+<dd>(aloud) Okey, I&#39;ll see you then.  Keep the greasy side in and the shiny
+    side out.  Scotch out.
+</dd>
+<dt>Quirk:</dt>
+<dd>Captain&#39;s log, stardate 8765 point 4..3..2..1..liftoff.  Woops!
+    (pause) It seems my ship&#39;s engineer has been possessed by the dead
+    <abbr title="mister">Mr.</abbr> Spot&#39;s KaKa.  I have hired a cracked
+    team of commando spookbusters to rid my ship of the infestation.  They are
+    also bringing Ensign T, who has been Missing In Action since last year&#39;s
+    program, thirteen weeks ago ship time.  Thanks to my new security system,
+    the Pantyless Field, I now know they have Spot&#39;s body.  I must now keep
+    Scotchy away from it, lest Spot&#39;s KaKa be reunited with his body.
+    Presently Colonel Panadol, Facemaker, and Drydock are inspecting the ship.
+    (pause)<br />Well, have you detected any traces of Spot&#39;s KaKa?
+</dd>
+<dt>Panadol:</dt>
+<dd>Admiral, this ship verily reeks of Vultron KaKa, especially around that
+    Scotchy person.
+</dd>
+<dt>Olhora:</dt>
+<dd>I told ya, Massa Scotch be possessed!  You get me some chickens!
+    I&#39;ll take care o&#39;... (gets face slapped by Savage.)
+</dd>
+<dt>Savage:</dt>
+<dd><abbr title="lieutenant">Lt.</abbr> Olhora, we&#39;re proceeding along
+    logical, scientific methods.  Shut up.
+</dd>
+<dt>Quirk:</dt>
+<dd>We can do it.  We can rebuild him.  We have the technology.  (Gotcha again)
+    But seriously, we&#39;ve got the body, and the KaKa. We can wipe him out
+    with one swell foop.
+</dd>
+<dt>Cast:</dt>
+<dd>(FOOP!)
+</dd>
+<dt>Delaya:</dt>
+<dd>Golly Gee, Mr. Announcer!  Wasn&#39;t that swell?
+</dd>
+<dt>Bones:</dt>
+<dd>Jim, I don&#39;t understand your obsession to get Spot!  I don&#39;t know
+    why you started this!
+</dd>
+<dt>Quirk:</dt>
+<dd><strong>I</strong> started it!  It was you and Scotchy that killed him...
+</dd>
+<dt>Bones:</dt>
+<dd>OK, Jim. I&#39;ll give you that one.  (Pause.  Apologetically:) Again.
+    But, come to think of it, it&#39;s been boring with Spot gone! There&#39;s
+    no one left to pull practical jokes on!
+</dd>
+<dt>Quirk:</dt>
+<dd>(Flustered) Practical Jokes!?...  Do you mean to tell me that we&#39;ve
+    flown from one end of the galaxy to the other, &#39;round Perdition&#39;s
+    Flame, through a proliferation of insipid orange Under Construction signs,
+    and gotten my ship destroyed, called the Spook Busters, and forced the
+    audience to go through the last episode and the first half of this one,
+    all for <strong>NOTHING!!!!??!!</strong>
+</dd>
+<dt>Bones:</dt>
+<dd>Well, Jim.  You win some, you lose some.  Besides, we&#39;ve already had
+    three introductions, and the damn show is almost half over.  Don&#39;t you
+    think these (looks at crowd)..people..are entitled to some
+    <strong>plot</strong>?
+</dd>
+<dt>(Spot):</dt>
+<dd>Jim, take me home.  Help me to Mount Delaya.
+</dd>
+<dt>Quirk:</dt>
+<dd>Scotchy, I tried that last program.  She&#39;s not that good!
+</dd>
+<dt>(Spot):</dt>
+<dd>No, Jim. Take <strong>me</strong> home.  Jim, please take me home.
+</dd>
+<dt>Quirk:</dt>
+<dd>Home?  We&#39;ve already been there, for your Gone-Far ritual.
+</dd>
+<dt>(Spot):</dt>
+<dd>Take me home again.
+</dd>
+<dt>Quirk:</dt>
+<dd>Okay, Okay, <strong>One more time</strong>. I&#39;ll take you home again,
+    GKathleen.
+</dd>
+<dt>Cast:</dt>
+<dd><strong>GKATHLEEN !!??!?!</strong>
+</dd>
+<dt>Quirk:</dt>
+<dd>Yes.  That&#39;s <abbr title="mister">Mr.</abbr> Spot&#39;s first name.
+</dd>
+<dt>Savage:</dt>
+<dd>But Admiral,  I thought a Vultron&#39;s first name was unpronounceable.
+</dd>
+<dt>(Spot):</dt>
+<dd>Unpronounceable in public.  So, you see, what I told you was true...
+    from a certain point of view.
+</dd>
+<dt>Savage:</dt>
+<dd>From a certain point of view!  You exaggerated!
+</dd>
+<dt>(Spot):</dt>
+<dd>I lied.  We have little time.  Hurry, <abbr title="mister">Mr.</abbr>
+    Zulu.  By the way, how are the Dodgers doing?  I forget <strong>so</strong>
+    much in here.
+</dd>
+<dt>Zulu:</dt>
+<dd>But, Cap&#39;n, we&#39;re lost in space, er, in The Budlight Zone.
+</dd>
+<dt>Olhora:</dt>
+<dd>My fairy Grandfather, the one from San Francisco, said when you wanna go
+    home, jes&#39; put on your red glitta shoes an say,
+    &#34;<q>They be no place like home</q>&#34;.
+</dd>
+<dt>T:</dt>
+<dd>Well, it sounds good to me.  Beats rollin&#39; a die and gettin&#39;
+    the KaKa blown out of us for the toid year in a row.
+</dd>
+<dt>Olhora:</dt>
+<dd>Here be the glitta shoes, honey.  (Hands fuzzy slippers to Scotch.)
+</dd>
+<dt>Quirk:</dt>
+<dd>This is getting damned peculiar.
+</dd>
+<dt>Bones:</dt>
+<dd>If you think <strong>this</strong> is peculiar, wait &#39;till you hear
+    the ending!
+</dd>
+<dt>Scotch and (Spot):</dt>
+<dd>There&#39;s no place like home.  (Repeat twice and fade.)
+</dd>
+<dd><br />(Explosion.  Everyone sways and staggers.  Begin single klaxon.)
+</dd>
+<dt>Ship:</dt>
+<dd>Warning!  <acronym title="Washer/Argyle Propulsion">WArP</acronym> 96!!
+    Warning!  <acronym title="Washer/Argyle Propulsion">WArP</acronym> 42!!
+    (Continue with random numbers).
+</dd>
+<dt>Zulu:</dt>
+<dd>Admiral, Negative control at helm!  We&#39;re like a hot air balloon in
+    a Kansas Tornado!
+</dd>
+<dt>Quirk:</dt>
+<dd>Scotchy!  I see a gremlin out on the wing!  Give me that <acronym
+    title="Parboil Humans and Aliens by Stimulated Emission of Radiation"
+    >PHASER</acronym>!
+</dd>
+<dt>Scotch:</dt>
+<dd>Jim, get control of yourself!  I&#39;ve studied this ship from one end to
+    the other.  We don&#39;t even <strong>have</strong> a wing!  And <acronym
+    title="Amercian Motors Corporation">AMC</acronym> stoped makin&#39;
+    Gremlins centuries ago.
+</dd>
+<dt>Quirk:</dt>
+<dd>He&#39;s out there!  Look!
+</dd>
+<dd><br />(Cut klaxon, Ship Warning)
+</dd>
+<dt>Quirk:</dt>
+<dd>... Where&#39;d he go to?
+</dd>
+<dt>Ship:</dt>
+<dd>Space normal speed resumed.
+</dd>
+<dt>Zulu:</dt>
+<dd>Cap&#39;n!  Look at the view screen!
+</dd>
+<dt>Quirk:</dt>
+<dd>(slowly) My God!  It&#39;s full of stars!
+</dd>
+<dt>Olhora:</dt>
+<dd>Whazzat, honey?
+</dd>
+<dt>Quirk:</dt>
+<dd>(slowly) My God!  It&#39;s full of stars!
+</dd>
+<dt>Savage:</dt>
+<dd>One more time?
+</dd>
+<dt>Quirk:</dt>
+<dd>(slowly) My God!  It&#39;s full of stars!
+</dd>
+<dt>T:</dt>
+<dd>Admiral, our position be the exact birth place of Captain Spot.
+    Unfortunately, the planet is on the other side of the Vultron Sun,
+    Flatulencia Combustus.
+</dd>
+<dd><br />(Scotch passes out.)
+</dd>
+<dt>(Spot):</dt>
+<dd>Admiral, there&#39;s no time left.
+</dd>
+<dt>Bones:</dt>
+<dd>Jim!  Scotchy&#39;s passed out already.  We&#39;ll never make it to Vultron
+    in time.
+</dd>
+<dt>Quirk:</dt>
+<dd>What are we going to do?  We&#39;ve got to save him.
+</dd>
+<dt>Savage:</dt>
+<dd>Admiral, there is a possibility that the information on the Vultron ritual
+    is in the ship&#39;s computer.
+</dd>
+<dt>T:</dt>
+<dd>I already got de printout, sucker.  (Opens large computer printout.)
+    Computer says ta get tree chickens, 2 snakes, a King Edwards cigar, a
+    grass skirt and a pair of Maracas.  Then you prays ta
+    <abbr title="saint">St.</abbr> Mitch.  In other wo&#39;ds, Fool, you shoulda
+    been lis&#39;nin&#39; ta Miss Olhora all&#39;a time.
+</dd>
+<dt>Olhora:</dt>
+<dd>I told you!  You shoulda lissen to me.  James Tyrone Quirk-Kingfish
+    Stephens!  You sho&#39;da figgerred out by now dat I know more dan all&#39;a
+    rest o&#39; you fools on this ship.  How else you think you keep it runnin?
+    You think that drunken fool of an engineer know anythin&#39; &#39;bout this
+    ship?  Why, I go downstai&#39;s, an&#39; I mix his matter, I turn his bolts,
+    strip his nuts, an&#39; ...
+</dd>
+<dt>Bones:</dt>
+<dd>Jim, Scotchy&#39;s pulse is almost gone.
+</dd>
+<dt>Olhora:</dt>
+<dd>Give me them snakes!  T! Wring them chicken necks, would ya?
+</dd>
+<dt>T:</dt>
+<dd> Ugh.  - Squaaaak! &nbsp;&nbsp;
+     Ugh.  - Squaaaak! &nbsp;&nbsp; Ugh.  - Squaaaak!
+</dd>
+<dt>Olhora:</dt>
+<dd>Oh, <abbr title="saint">St.</abbr> Mitch!  We heaby requess you to
+    remove the spirit possessin&#39; this man and resto&#39; it back to its
+    rightful owner.  Git the KaKa outta heah!  An&#39; Oh! 
+    <abbr title="saint">St.</abbr> Mitchell!  Aunt Jemima!  Farina!  Buckwheat!
+    Creama Wheat!  Amos &amp; Andy!  (passes out.)
+</dd>
+<dt>Announcer:</dt>
+<dd>As Admiral Quirk administers <span
+    title="A gag on the foam plastic surgery Michael used to become Olhora"
+    >mouth-to-Nerf</span> resuscitation, the whole crew is taken back in
+    amazement at the Captain&#39;s ability to open his mouth so wide. And, so
+    as not to bore you with cheap sex jokes, or cheap sex..
+</dd>
+<dt>Michael:</dt>
+<dd>I may be easy, but I ain&#39;t cheap!
+</dd>
+<dt>Announcer:</dt>
+<dd>...we now peer with our ears into Mr. Spot&#39;s coffin where we hear:
+</dd>
+<dt>(Spot):</dt>
+<dd>This has got to be the worst hangover of my life.  (pause) Christine,
+    would you turn on the lights?  (pause)  Where is she?  Follows me everywhere
+    for three seasons, then she goes and gets herself lost.  I might just as
+    well be.. Oh, No!
+</dd>
+<dt>Quirk:</dt>
+<dd>(pause) Olhora, Baby.  Are you Okay?  Wake up!
+</dd>
+<dt>Bones:</dt>
+<dd>Somebody get that damn coffin open!  Quick!
+</dd>
+<dd><br />(Long creak of opeing coffin.)
+</dd>
+<dt>Spot:</dt>
+<dd>Jim.  Ship...otay?
+</dd>
+<dt>Bones:</dt>
+<dd>Otay?  Otay!  Of course this ship is out of danger, you green-blooded
+    hobgoblin!  No thanks to you, floating about the galaxy for the last
+    eighteen weeks!
+</dd>
+<dt>Spot:</dt>
+<dd>Doctor, I see that you have not lost your tenacity to fly off the handle.
+</dd>
+<dt>Bones:</dt>
+<dd>I&#39;ll give you a handle to fly off of, you..
+</dd>
+<dt>Quirk:</dt>
+<dd>Spot!  It&#39;s you! You&#39;re back!  (pause)  Bones, see how Scotchy is...
+</dd>
+<dt>Scotch:</dt>
+<dd>Well, I do feel a stone or two lighter.  Boy, could I use a drink.
+</dd>
+<dt>Bones:</dt>
+<dd>He&#39;s Okay, Jim.
+</dd>
+<dt>Quirk:</dt>
+<dd>Spot, are you okay?  Are you reformed?  Did you get your KaKa together?
+</dd>
+<dt>Spot:</dt>
+<dd>I am well.
+</dd>
+<dt>Olhora:</dt>
+<dd>Spot, honey, I&#39;se glad you back.  The las&#39; episode was kinda dull.
+</dd>
+<dt>Spot:</dt>
+<dd>Admiral, I sense danger.  We must get to the bridge.
+</dd>
+<dt>Quirk:</dt>
+<dd>But, Spot!  We&#39;re on the bridge!
+</dd>
+<dt>Spot:</dt>
+<dd>Ah, the Corvair Design!  But Admiral, this design was rejected as being
+    &#34;<q>Unsafe at any speed</q>&#34;.
+</dd>
+<dt>Quirk:</dt>
+<dd>Dammit, Spot!  You and Savage.  Always by the book.
+</dd>
+<dt>Scotch:</dt>
+<dd>Yeah, what do you know, you copper toned, elf-eared, half breed, lost in
+    space, frozen popsicle son of a white woman?  You wouldna know dual
+    carburetion from a pair of bifocals!  What do you know &#39;bout the
+    difference between front and rear engine and whether the hood stays on?
+    Who are you to question the way this ship runs?
+</dd>
+<dt>Bones:</dt>
+<dd>Scotchy, calm down.  The mutant&#39;s been out frozen in space for half a
+    year!  Here, Scotchy.  Take some silver nitrane an&#39; we&#39;ll talk it
+    out in the morning.
+</dd>
+<dt>Liz:</dt>
+<dd>What a precipitous development this is!
+</dd>
+<dt>Scotch:</dt>
+<dd>Alright, doctor.  But I&#39;ll need somethin&#39; ta wash it down wi&#39;..
+</dd>
+<dt>Zulu:</dt>
+<dd>Captain!  Look at the screen!
+</dd>
+<dt>Quirk:</dt>
+<dd>So what?  It&#39;s still full of stars.
+</dd>
+<dt>Zulu:</dt>
+<dd>No.  There&#39;s a flickering in the starfields.  It&#39;s a bunch of ships
+    with croaking devices.
+</dd>
+<dt>Quirk:</dt>
+<dd>They&#39;re appearing!  Raise the Dalkon shields and screens!
+</dd>
+<dt>Zulu:</dt>
+<dd>This looks like the end!  An entire fleet of Remoulade Frogs of Prey to the
+    west, and another fleet of Klingfree Battle Sheets to our east!
+</dd>
+<dt>Liz:</dt>
+<dd>What a bang-up finish this is gonna be!!  It&#39;ll make Genocide sound
+    like a capgun!
+</dd>
+<dt>Spot:</dt>
+<dd>(pause)  Jim, they can outgun us, and outrun us.  Our only choice is to
+    stand and fight.
+</dd>
+<dt>Bones:</dt>
+<dd>And die?  Me, <abbr title="doctor">Dr.</abbr> Leonhard &#34;<q>Bones</q>&#34; Maloy?
+    Sit here and die?  Why, you Chlorophyll-Brained bastard!  If you were a
+    disk, you&#39;d be floppy!  I&#39;m a doctor, not a suicidal maniac.
+</dd>
+<dt>Spot:</dt>
+<dd>Calm down, Doctor.  Admiral, we have a chance to make history.  To do what
+    we have never done before.  A chance to snatch victory from the jaws of
+    defeat.
+</dd>
+<dt>Quirk:</dt>
+<dd>Victory?!  What do you mean, victory?  There are two <strong>fleets</strong>
+    of enemy ships out there!
+</dd>
+<dt>Spot:</dt>
+<dd>Captain, in the last few seconds I read your logs of last year&#39;s script.
+    <abbr title="mister">Mr.</abbr> Scotch has nearly perfected the
+    <em>Pharton Torpedo</em>.  We can blow both of these fleets to Kingdom Come.
+</dd>
+<dt>Quirk:</dt>
+<dd>But Spot, if Scotchy rolls another six, we&#39;ll destroy this ship, the
+    planet Vultron, and your smelly methane-powered sun, to boot!
+</dd>
+<dt>Spot:</dt>
+<dd>Admiral, I think I have the answer.  We could use a four-sided die.
+</dd>
+<dt>Olhora:</dt>
+<dd>The fool be right.  You can&#39;t roll a six wit&#39; one o&#39; dem.
+</dd>
+<dt>Scotch:</dt>
+<dd>I like it.  It makes sense to me.  At least we dinna get the KaKa kicked
+    out of us again.
+</dd>
+<dt>Spot:</dt>
+<dd>It would definitely be a change for the better, Commander Scotch.  Variety
+    <em>is</em> the spice of life.
+</dd>
+<dt>Bubby:</dt>
+<dd>The spice is all that matters..
+</dd>
+<dt>Quirk:</dt>
+<dd>(pause)  Well, it <em>does</em> make sense.  Zulu, arm Pharton Torpedoes.
+    Aim one at the center of each fleet.
+</dd>
+<dt>Zulu:</dt>
+<dd>Aye, Cap&#39;n.
+</dd>
+<dt>Olhora:</dt>
+<dd>Admiral!   Both fleets are ordering us to surrender!
+</dd>
+<dt>Quirk:</dt>
+<dd>Olhora, but them both on the monitor.  Not those, Olhora, the Fleet
+    Commanders! (pause, during which the &#34;<q>pup tones</q>&#34; from <span
+    class="publication">Close Encounters</span> are played.  This is Admiral
+    James Tyrone Quirk off the <span class="shipname">
+    <acronym title="Amalgamation Star Ship">ASS</acronym> BOOBYPRIZE</span>.
+    Both Klingfree and Remoulade fleets have violated Amalgamation space.
+    Your presence here is an act of war.  I hereby order you to surrender
+    your wessels, or (patronizingly) face complete and total desctruction of
+    everything you&#39;ve known and loved.
+</dd>
+<dt>Krude:</dt>
+<dd>This is Klingfree commander Krude.  I admire your bravery, Admiral.
+    <strong>And</strong> your stupidity.  Our two empires have combined forces
+    to once and for all wipe out your silly Amalgamation.  You are merely one
+    small insect to swat out of the way on our conquest.  I would suggest that
+    <em>you</em> surrender.  We have you outnumbered 255 to 1.  You have 
+    sixty seconds.  We await your message.
+</dd>
+<dt>Bones:</dt>
+<dd>Jim, tell him he can blow it out his asteroids.
+</dd>
+<dt>Quirk:</dt>
+<dd>Recommendation noted.  (whispers)  Zulu, get ready!  Full power, Pharton
+    Torpedoes!  Full power Dalkon Shields!  (afterthought)  And arm Belchon
+    Torpedoes in case we miss anybody.
+</dd>
+<dt>Savage:</dt>
+<dd>Admiral, you mean you&#39;re <strong>not</strong> going to surrender?
+</dd>
+<dt>Quirk:</dt>
+<dd>Surrender?  Surrender, my seventh planet.  Okay, Scotch.  Roll.
+</dd>
+<dt>Scotch:</dt>
+<dd>Come on!  Baby needs a new carburetor!  (rolls) Ah!  Snake Eyes!!
+</dd>
+<dt>Quirk:</dt>
+<dd>Olhora, radio the two fleets.  Tell them to stand by to receive our
+    transmission, and our rear end as well.
+</dd>
+<dt>Olhora:</dt>
+<dd>Yazzah!!
+</dd>
+<dt>Quirk:</dt>
+<dd>Zulu, phire Pharton Torpedoes.
+</dd>
+<dt>Zulu:</dt>
+<dd>Pharton Torpedoes, Awaaaaaay!
+</dd>
+<dt>Bones:</dt>
+<dd>Die, you suckers!
+</dd>
+<dt>Spot:</dt>
+<dd>Eat hot phartons and malfunction, Klingaids!
+</dd>
+<dd><br />(Two Pharts, followed by two explosions, followed in turn by cheers.)
+</dd>
+<dt>Zulu:</dt>
+<dd>Good woik, Admiral.
+</dd>
+<dt>Scotch:</dt>
+<dd>Dern Tootin&#39;!  Good Shootin&#39;!
+</dd>
+<dt>Savage:</dt>
+<dd>Congratulations, Admiral.  In the words of Commander Olhora,
+    &#34;<q>They be daid</q>&#34;.
+</dd>
+<dt>Olhora:</dt>
+<dd>Yeah, Baby.
+</dd>
+<dt>T:</dt>
+<dd>Yeah.  We show them who be who.  Tanks to the power of the Pharton Torpedo,
+    we be the new Masters of the Universe.  As ol&#39; Bill Shakespeare useda
+    say -
+</dd>
+<dt>Cast:</dt>
+<dd>&#34;<q>East is east and west is west, and you&#39;re all right as long as the
+    trains don&#39; meet.</q>&#34;
+</dd>
+<dt>Quirk:</dt>
+<dd>We can do anything.  Anything we want.  Anything <strong>I</strong> want.
+</dd>
+<dt>Savage:</dt>
+<dd><abbr title="mister">Mr.</abbr> Spot, about our time on Genocide..  As
+    <abbr title="doctor">Dr.</abbr> Chapstick puts it, there&#39;s something
+    in the oven.
+</dd>
+<dt>Spot:</dt>
+<dd>Mister Savage, as your teacher and mentor, it is my duty to tell you of the
+    ancient Vultron proverb which says:  &#34;<q>Take that which you have brought
+    upon yourself, and bear the guilt alone.</q>&#34;  Fortunately, I&#39;m not
+    pregnant.
+</dd>
+<dd><br />(Spot and Savage go for neck pinches, Quirk physically intervenes.)
+</dd>
+<dt>Quirk:</dt>
+<dd>Ah, well, a happy <strong>end</strong>ing.  We can just cruise about the
+    galaxy, and wait ten years or so until they make a movie about us.
+    About me.
+</dd>
+<dt>Cast:</dt>
+<dd>(Affirmative responses.)
+</dd>
+<dt>Bones:</dt>
+<dd>Hey, Jim!  You know, this is the first episode we&#39;ve ever gone through
+    without you falling in love with a new species of alien woman.  Better do
+    something or you&#39;ll lose your reputation.
+</dd>
+<dt>Savage:</dt>
+<dd>But, <abbr title="doctor">Dr.</abbr> Maloy, there isn&#39;t an alien planet
+    except Vultron anywhere around here.  It would be almost a week before we
+    could find some bimbo, I mean being for the Admiral.
+</dd>
+<dt>Quirk:</dt>
+<dd>By gods, she&#39;s right!
+</dd>
+<dt>Malden:</dt>
+<dd>You&#39;re lost in space, no cash, and you need a woman desperately.
+    Who can you turn to?  What will you do?  What <strong>will</strong> you do?
+    If you had Amalgamated Express, you could go to any one of over nineteen
+    billion starbases for an instant refund, or instant gratification.
+    Amalgamated Express.  Don&#39;t leave port without it.
+</dd>
+<dt>Quirk:</dt>
+<dd>Spot, any suggestions?  Any plots or movies we haven&#39;t made fun of yet?
+    How about a miniseries?  How about T. J. Hooker?  There&#39;s got to be
+    some material in there!
+</dd>
+<dt>Spot:</dt>
+<dd>Admiral, there is an ancient Disney superstition which may help.  It&#39;s
+    called &#34;<q>Wishing upon a star</q>&#34;.
+</dd>
+<dt>Quirk:</dt>
+<dd>Wishing upon a star??  But Spot, I&#39;m an admiral.
+</dd>
+<dt>Spot:</dt>
+<dd>Captain, it makes no difference who you are.
+</dd>
+<dt>Quirk:</dt>
+<dd><span title="This line was not printed on my script, so I guessed.">Yes, but
+    I&#39;m more accustomed to giving orders.  I know! Bones, you make a wish.
+    </span>
+</dd>
+<dt>Bones:</dt>
+<dd>Okay, Jim.  Here goes.  Se that one -- over there.  The green one on the
+    left.  Watch.
+</dd>
+<dt>Zulu:</dt>
+<dd>(pause)  Admiral, what&#39;s going to happen?
+</dd>
+<dt>(Bowman):</dt>
+<dd>Something wonderful.
+</dd>
+<dd><br />(Oohs and Aahs from the crew)
+</dd>
+<dt>Quirk:</dt>
+<dd>My God!  The view screen!  It&#39;s full of...
+</dd>
+<dt>Cast:</dt>
+<dd>Bars!  (Chants) Bar-rooms!  Bar-rooms!..
+</dd>
+<dt>T:</dt>
+<dd>Seventeen million, three hundred forty seven thousand and six bars, taverns,
+    nightclubs, and casinoes, to be exact, Sucker, Sir.
+</dd>
+<dt>Bones:</dt>
+<dd>Kinda reminds me of Louisiana...
+</dd>
+<dt>Quirk:</dt>
+<dd>Why, Bones, you alcoholic son of a...
+</dd>
+<dt>Scotch:</dt>
+<dd>Aye.  Good work, <abbr title="doctor">Dr.</abbr> Maloy.  It&#39;s about time
+    we had a <em>good stiff belt</em>.  Ah!
+</dd>
+<dt>Savage:</dt>
+<dd>But, <abbr title="mister">Mr.</abbr> Scotch, our pants have elastic
+    waistbands...
+</dd>
+<dt>Spot:</dt>
+<dd><abbr title="lieutenant">Lt.</abbr>, what <abbr title="mister">Mr.</abbr>
+    Scotch is referring to is.. oh, forget it.  Admiral, even <strong>I</strong>
+    could use some recreation.
+</dd>
+<dt>Quirk:</dt>
+<dd>And they may even have beautiful alien women in those bars.
+</dd>
+<dt>Bones:</dt>
+<dd>Of course, Jim.  That was part of the wish.  Heh, heh.  Ain&#39;t I
+    somethin&#39;?
+</dd>
+<dt>Quirk:</dt>
+<dd>Come on guys!  You too, Savage.  First round is on Spot.
+</dd>
+<dt>Spot:</dt>
+<dd>Ok, if they&#39;ll cash my back pay check.  By the way, Jim.  What if the
+    enemy had decided to surrender?    Even had we used all our personnell,
+    the ratio of our boarding parties would have been 1.414 men per ship.
+    That&#39;s hardly a force to be reckoned with.
+</dd>
+<dt>Quirk:</dt>
+<dd>True, Spot, but remember General Order 42.  Upon meeting an enemy vessel
+    in our space, we must order them to surrender.  I was going by the book.
+    But the book doesn&#39;t say I have to <strong>allow</strong> them to 
+    surrender.
+</dd>
+<dt>Bones:</dt>
+<dd>So you were going to blast them anyway, Jim?  Why you sly old dog...
+</dd>
+<dt>Scotch:</dt>
+<dd>Aye, that&#39;s my kind o&#39; Captain!
+</dd>
+<dd><br />(start <span class="publication">Fools Rush in Where Angels Fear to
+    Tread</span>)
+</dd>
+<dt>Quirk:</dt>
+<dd>Heh, Heh.   Ain&#39;t I somethin&#39;?  Let&#39;s go to Tie One On.
+</dd>
+<dt>Savage:</dt>
+<dd>But, Admiral, where is Taiwanon?
+</dd>
+<dt>Bones:</dt>
+<dd>Don&#39;t worry your pretty li&#39;l head about it.  The men folk&#39;ll
+    show ya.
+</dd>
+<dt>(Spot):</dt>
+<dd><span title="This line was not printed on my script, so I guessed.">
+    Take me home now, or lose me forever!</span>
+</dd>
+<dt>Quirk:</dt>
+<dd>Now Scotchy, cut that out!
+</dd>
+<dt>Scotch:</dt>
+<dd>Cut what out, Admiral?
+</dd>
+<dt>Cast:</dt>
+<dd>(Doo Doo Doo Doo   Doo Doo Doo Doo)
+</dd>
+<dt>Announcer:</dt>
+<dd>Submitted for your approval, the flight of the
+    <span class="shipname">BOOBYPRIZE</span>.  Given a happy ending, the crew,
+    cast, and writers have nothing better to do than get drunk.  Not a bad
+    idea, if you ever find yourself Lost in Space.  So, if you ever wish upon
+    a star, and find yourself in a bar with this silly cast, beware.  For you
+    have just entered <strong>The Budlight Zone</strong>.
+</dd>
+<dt>(Spot):</dt>
+<dd>Space, the next-to-last frontier.  These have been the voyages of the
+    starship <span class="shipname">BOOBYPRIZE</span>.  Its dubious mission:
+    to create new life out of old television programs, to find new, extravagant
+    alien women for the captain to fall in love with, and to give this insipid
+    group of amateur actors a chance to go out of state and make fools of
+    themselves each year.
+</dd>
+<dd><br />(Close theme: <span class="publication">Swinging the Alphabet</span>,
+    led by Curly.)
+</dd>
+<dt>Announcer:</dt>
+<dd>Well, Folks, that&#39;s just about it for the crew of the 
+    <span class="shipname">BOOBYPRIZE</span>.  Aren&#39;t you glad?  Be sure to
+    be there when we present our next Star Yecch Adventure, and hear
+    <abbr title="lieutenant commander">Lt. Cdr.</abbr> Olhora say:
+</dd>
+<dt>Olhora:</dt>
+<dd>Would you look at that?!
+</dd>
+<dt>Bones:</dt>
+<dd>Jim, is that...
+</dd>
+<dt>Quirk:</dt>
+<dd>Yes, gentlemen, the great experiment.  I give you..the
+    <span class="shipname">EXPECTORATION</span>.
+</dd>
+<dt>Zulu:</dt>
+<dd>I hear she&#39;s got Trash 
+    <acronym title="Washer/Argyle Propulsion">WArP</acronym> drive.
+</dd>
+<dt>Scotch:</dt>
+<dd>And if my mother was a birthday cake, she&#39;d have candles.
+</dd>
+<dt>Spot:</dt>
+<dd>Jim, does that mean?...
+</dd>
+<dt>Quirk:</dt>
+<dd>Yes, it does!
+</dd>
+<dt>Savage:</dt>
+<dd>Does he mean?
+</dd>
+<dt>Cast:</dt>
+<dd>Yes!  He does!
+</dd>
+<dt>Bones:</dt>
+<dd>You can&#39;t mean....
+</dd>
+<dt>Zulu:</dt>
+<dd>I&#39;m afraid he does.
+</dd>
+<dt>Announcer:</dt>
+<dd>So tune in next time, here at CoastCon &#39;87, to find out what he really
+    means, in: <span class="publication">Star Yecch -2: Forward into the
+    Past</span>!
+</dd>
+<dd><br />(fade in <span class="publication">When You Wish upon a Star</span>)
+</dd>
+<dt>Announcer:</dt>
+<dd>
+    <span class="publication">Star Yecch 3: In Search of Spot</span> has been
+    another not-so-original radio play written and produced by
+    <span class="organization">
+    <acronym title="The Survivors of the Big Bang">SOB&sup2;</acronym> the
+    <acronym title="University of New Orleans">UNO</acronym>
+    <acronym title="Science Fiction and Fantasy">SF&amp;F</acronym> Club.
+    </span>
+    Autographed copies may be obtained from any cast member for $2 or
+    unlimited gratuitous sexual favors.<br />
+    Tonight&#39;s production starred:
+    <ul><li>Derrick Michel as Captain-Admiral James Tyrone Quirk;</li>
+        <li>David Newton on Drugs;</li>
+        <li>Goody Michel as Ensign T, and <abbr title="mister">Mr.</abbr>
+            Spot and his ghost;</li>
+        <li>J.J. Newton with Sand in his Ear;</li>
+        <li>Betty Eckerle as <abbr title="mister">Mr.</abbr> Zulu;</li>
+        <li>&#34;<q>Dizzy</q>&#34; Dave Newton on Marge;</li>
+        <li><acronym title="that creole">T.C.</acronym> Barthelemy as the
+            lovely Commander Olhora and
+            <abbr title="lieutenant">Lt.</abbr> Savage;</li>
+        <li>Dave &#34;<q>I Feel Faint</q>&#34; Newton on Leave;</li>
+        <li><acronym title="FaceMaker">F.M.</acronym> Hagebusch as 
+            <abbr title="mister">Mr.</abbr> Scotch;</li>
+        <li>Dave &#34;<q>Pass Me That Discharge</q>&#34; Newton out of it;</li>
+        <li>Bubby Trippodo as the indomitable, incorrigible, and unrelenting
+            <abbr title="doctor">Dr.</abbr> Bones Maloy;</li>
+        <li>Dave &#34;<q>Pie Face</q>&#34; Newton as the Living Muppet;</li>
+        <li><acronym title="Charles Tuminello">C.T.</acronym> Tuminello as 
+            Dave Bowman and Curly;</li>
+        <li>Dave &#34;<q>I Love El Paso</q>&#34; Newton out in the sun;</li>
+        <li>Baby Doo Stocker as our Best Boy;</li>
+        <li>Dave &#34;<q>Deadly Ninja Throwing Shoes</q>&#34; Newton on
+            <abbr title="doctor">Dr.</abbr> Scholl Insoles;</li>
+        <li>&#34;<q>Rocky</q>&#34; Gillard as teh Fill In Man;</li>
+        <li>Dave &#34;<q>It&#39;s My Game, I Make the Rules</q>&#34; Newton, Alone;</li> 
+        <li>and me, George T. &#34;<q>Bill</q>&#34; Spicuzza, as the <strong>real</strong>
+            star of the show.</li>
+    </ul>
+    Our thanks tonight go to <span class="organization">CoastCon</span> for
+    allowing us to do this tripe, and our prayers go out to late bishop of the
+    People&#39;s Catholic Church, <abbr title="saint">St.</abbr> Mitch der
+    Vunderanimal.  Thanks also to Dave &#34;<q>J.J.</q>&#34; Newton, without whom this
+    would never have happened.<br />
+    Tonight&#39;s presentation is dedicated to Al &#34;<q>Crash</q>&#34; Sunseri, and
+    the <span class="organization">
+    <acronym title="University of New Orleans">UNO</acronym> Physics Club</span>
+    for helping make the last year a <strong>Marvel</strong>ous and
+    <strong>super</strong> experience.  Thanks and Good Night!
+</dd>
+<dd><br />(Bridge up theme for about 5 or 10 seconds, then fade out.)
+</dd>
+<dd><br />Finis.
+</dd>
+</dl>
+<div class="hr"><img src="images/transparent.gif" alt="" /></div>
+<ul class="navigation">
+<li class="key1"> [<a href="index.htm"
+ accesskey="1" title="Home:  Welcome to the Amalgamation ">
+    1:&nbsp;<img src="images/analbutt.gif" alt="Home" />
+</a>]&nbsp;</li>
+<li class="key2"> [<a href="itbys.htm"
+ accesskey="2" title="Next: It&#39;s The BOOBYPRIZE You&#39;re Saved!">
+    2:&nbsp;<img src="images/pointdown.gif" alt="Next" />
+</a>]&nbsp;</li>
+<li class="key3"> [<a href="itbys.htm"
+ accesskey="3" title="Next Sibling: It&#39;s The BOOBYPRIZE You&#39;re Saved!">
+    3:&nbsp;<img src="images/nextsib.gif" alt="Next Sibling" />
+</a>]&nbsp;</li>
+<li class="key4"> [<a href="plays.htm"
+ accesskey="4" title="Parent: Amalgamation Starfleet Radio Plays">
+    4:&nbsp;<img src="images/pointing.gif" alt="Parent" />
+</a>]&nbsp;</li>
+<li class="key5"> [<a href="sitemap.htm"
+ accesskey="5" title="Sitemap">
+    5:&nbsp;<img src="images/sitemap.jpg" alt="Sitemap" />
+</a>]&nbsp;</li>
+<li class="key7"> [<a href="trotb.htm"
+ accesskey="7" title="Previous Sibling: The Return of the BOOBYPRIZE">
+    7:&nbsp;<img src="images/prevsib.gif" alt="Previous Sibling" />
+</a>]&nbsp;</li>
+<li class="key8"> [<a href="trotb.htm"
+ accesskey="8" title="Previous: The Return of the BOOBYPRIZE">
+    8:&nbsp;Previous
+</a>]&nbsp;</li>
+<li class="key9"> [<a href="sendemail.htm"
+ accesskey="9" title="Feedback: Send Email">
+    9:&nbsp;<img src="images/feedback.gif" alt="Feedback" />
+</a>]&nbsp;</li>
+<li class="key0"> [<a href="access.htm"
+ accesskey="0" title="Accessibility">
+    0:&nbsp;Accessibility
+</a>]&nbsp;</li>
+</ul>
+<ul class="triplet">
+<li class="first"><a href="/web/20080828052954/http://validator.w3.org/check?uri=referer">
+    <img src="images/vxhtml-basic10.gif" 
+     alt="Valid XHTML Basic 1.0!"  /></a></li>
+<li class="second"><a href="/web/20080828052954/http://jigsaw.w3.org/css-validator/validator?uri=http://www.amalgamationstarfleet.org/anal.css&amp;usermedium=all">
+    <img src="images/vcss.gif" 
+     alt="Valid CSS!"  /></a></li>
+<li class="third"><a href="/web/20080828052954/http://www.w3.org/WAI/WCAG1A-Conformance" title="Explanation of Level A Conformance">
+    <img src="images/wcag1A.gif" 
+     alt="Level A conformance icon,
+W3C-WAI Web Content Accessibility Guidelines 1.0"  /></a></li>
+</ul>
+</div></body></html>
+
+
+
+
+
+<!--
+     FILE ARCHIVED ON 5:29:54 Aug 28, 2008 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 2:07:17 Aug 21, 2015.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->

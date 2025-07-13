@@ -1,0 +1,327 @@
+body, div.page {font-size: medium;
+		font-family: arial, helvetica, sans-serif; min-width: 100ex;}
+h1, h2, h3, h4, 
+.center       {text-align: center;}
+div.script h2 {text-align: left; font-size:large;}
+div.script p  {margin-top: 0.5ex; margin-bottom: 0ex; text-indent: 5ex;}
+div.dialog    {margin-top: 2ex;}
+div.scene     {margin-top: 4ex;}
+.centerit     {width: 50%;}
+.noborder     {border: none;}
+form table tr td {vertical-align: top;}
+.left         {float: left;}
+.right        {float: right;}
+img#xerobiography {float: right; clear: right; margin: 2ex;
+		height: 52ex; width: 36ex;}
+.small        {font-size: small;}
+.notbold      {font-weight: normal;}
+.hr           {border-style: solid none solid none; border-width: medium;
+               border-color: black; height: 1ex;}
+.outerspace .triplet .fourth,
+.outerspace .hr {border-color: silver;}
+.thevoid      {text-align: center; border-width: medium; border-color: silver;
+		border-style: none none solid none;}
+.thevoid form  {margin-left: auto; margin-right: auto;}
+.shipdrawing  {background-color: white; color: black;
+		border-color: silver; border-style: ridge; border-width: 1ex;}
+div.shipdrawing {display: compact; margin: 2ex auto 2ex auto;
+		 padding: 10ex; width: 40ex;
+}
+th            {text-align: left;}
+h1, h2, h3    {display: block;}
+.hr, .mozilla_wa,
+dl, dt, dd    {clear: both;}
+.newspaper .li.mozilla_wa {height: 1px; width: 100%;}
+.mozilla_wa img {height: 1px;}
+.signature    {margin-left: 50%;}
+dl.cast       {margin-left: 10%;}
+dt            {font-weight: bold;}
+dl.cast dt    {width: 18ex;}
+dl.script dt  {width: 10ex;}
+dl.cast dd,
+dl.script dd  {font-weight: normal; margin-left: 12ex; min-width: 20ex;
+               position: relative; top: -2.0ex;}
+.super        {position: relative; bottom: 0.6ex; font-size: smaller;}
+dl.cast dd    {font-weight: bold; margin-left: 20ex; min-width: 12ex;}
+h1            {font-size: xx-large; margin: 4ex 4ex 0ex 4ex;}
+.banner       {font-size: xx-large;}
+h1.banner     {margin: 1ex 4ex 0ex 4ex;}
+h1.search     {font-size: large;}
+h2            {font-size: x-large; margin: 4ex 4ex 0ex 4ex;}
+h3            {font-size: large;}
+h4            {font-size: medium;}
+.publication,
+.organization {text-decoration: underline;}
+.oops         {text-decoration: line-through;}
+.shipname     {font-weight: bold;}
+.outerspace   {background-color: black;
+		color: white; 
+		background-image: url("images/space.gif");
+		background-repeat: repeat;}
+.outerspace :link {background-color: black; color: #4D4DFF;}
+.outerspace :visited {background-color: black; color: #DB7093;}
+.outerspace :active {background-color: black; color: #FF6EC7;}
+.shipclass    {background-color: #32CD32; color: black;}
+.credits      {background-color: #D9D9F3; color: black;}
+.fleets       {background-color: #A0B0C0; color: black;}
+.drfortran,
+.newspaper    {background-color: #C0C0C0; color: black;}
+#dedica       {background-color: #E9C2A6; color: black;}
+#naval        {background-color: #FF6EC7; color: black;}
+#prehist      {background-color: #B5A642; color: black;}
+.restricted   {background-color: yellow; color: red; text-align: center;}
+.navigation,
+.dedications,
+#index div ul li,
+#fort div ul li    {text-align: center; font-size: large; font-weight: bold;}
+.thevoid ul li,
+.center ul li {display: block; list-style-type: none;}
+p {margin: 3ex; font-size: medium; font-family: arial, helvetica, sans-serif;}
+p.letter24tran {font-style: italic;}
+ul.branches,
+dl.branches,
+dl.normal     {margin: 3ex; list-style-type: none; font-size: large;}
+.dedications li {list-style-type: none; margin: 2ex;}
+.button       {float: left;}
+.newspaper h2.trailer,
+.navigation {display: block; padding: 2ex; margin: 0; font-size: medium;}
+junk{		background-color: white; color: black;}
+.outerspace .navigation {background-color: black; color: white;} 
+.navigation li {display: inline;}
+.navigation li img {height: 4ex;}
+dl.shiplist   {margin-left: 10%; margin-right: 10%;}
+dl.shiplist dd {margin-left: 12ex; min-width: 25ex;
+               position: relative; top: -2.4ex;}
+q:before, q:after {display: none; content:"";}
+q.nickname,
+q q {font-style: italic;}
+dl.shiplist dd:after {display: block; content: attr(title); margin-left: 5ex;}
+pre           {margin-left: 5ex;}
+h1 .subhead   {display: block; text-align: center;
+		font-size: large; font-weight: bold;}
+h2 .subhead   {display: block; text-align: center;
+		font-size: medium; font-weight: bold;}
+.subtitle     {text-align: center; font-size: small; margin-bottom: 1ex;}
+.dateline     {text-align: center; font-size: small;}
+.newspaper .editorial h2 {margin: 2ex;}
+.newspaper h2 {margin: 2ex 25% 0 25%;}
+.dateline     {margin: 0 25% 0 25%;}
+.newspaper h2,
+.dateline     {padding: 0.5ex 0 0.5ex 0;
+		border-width: medium; border-color: black;
+		border-style: none none solid none;}
+h1.banner     {padding: 0.5ex; margin: 1ex 0 1ex 0; 
+		border-width: thick; border-color: black;
+		border-style: none none double none;}
+.disclaimer   {padding: 0.5ex; font-size: medium;
+		background-color: white; color: black;
+		border-width: medium; border-color: black;
+		border-style: solid none none none;}
+
+.editorial	{margin: 0.5ex 25% 0.5ex 25%;
+		border-style: ridge; border-width: 1ex;}
+.masthead img.first {float: left;}
+.triplet .fourth {border-width: medium; border-color: black;
+		border-style: solid none none none;}
+.triplet      {text-indent: 0ex; display: block; margin: 0; padding: 0;
+		font-weight: bold; clear: both;}
+.triplet *  {list-style-type: none; display: block; text-indent: 0ex;
+		margin: 0; padding: 0;}
+.triplet .first {width: 35%;  float: left; text-align: left;}
+.triplet .second {float: left; width: 30%; text-align: center;}
+.triplet .third {text-align: right;}
+.triplet .second img {margin-right: auto; margin-left: auto;}
+.triplet .third img {margin-right: 0; margin-left: auto;}
+.triplet .fourth {clear: both; height: 0; width: 100%;}
+img.planets  {position: absolute; top: 0; left: 0;}
+#index h1 {padding-top: 0; margin: 0 0 1ex 0;}
+.special, .motto {font-style: italic;}
+div.motto {text-align: center; font-weight: bold; font-size: large;
+		margin: 2ex;}
+
+orangeboxes {border-color: #ff8000; border-style: solid; border-width: 1px;} 
+
+#fleets	{background-image: url("images/softgrid.gif"); background-repeat: repeat;}
+#fort	{background-image: url("images/chalk.jpg"); background-repeat: repeat;}
+#news  {background-image: url("images/texture.gif"); background-repeat: repeat;}
+#officers {background-image: url("images/blue.gif"); background-repeat: repeat;}
+#ships {background-image: url("images/bluesky.jpg"); background-repeat: repeat;}
+
+/* OK, here begins the madness for the advertisements in the newspapers */
+.advertisement,
+.condomad     {text-align: center; padding: 1ex;}
+.advertisement p,
+.condomad p   {margin: 0; padding: 1ex;}
+.advertisement div {width: 32ex;}
+.condomad div {width: 30ex;}
+div#cartog div {width: 54ex;}
+.newspaper .advertisement div,
+.newspaper .condomad div {margin-left: auto; margin-right: auto;
+		font-size: medium; font-weight: bold;
+		font-family: helvetica, arial, sans-serif;
+		border-style: ridge; border-width: 2ex;
+		background-color: white; color: black;}
+
+.advertisement span,
+.condomad span {display: block; font-size: medium; font-weight: bold;}
+
+#alemary2, #alemary3, #alemary4,
+#armarine2, #armarine3,
+#japwine2, #japwine3, #japwine4, 
+#males3, #males4, #reelect2, #reelect3,
+#calhoun4,
+#cartog3, #cartog6,
+.condomad .phoneus,
+.condomad .anticlimax,
+#dickens2, #dickens4, #dickens5, #dickens6,
+#fruitstand2, #fruitstand3, #fruitstand4,
+#wimp6 {margin-top: 0.5ex;} 
+.condomad .catch  {margin-bottom: 0.5ex;}
+
+
+#calhoun1, #calhoun2,
+#cartog3,
+#dickens4,
+#niagaragel3,
+#ppilsner3,
+#reelect2, #males3,
+.condomad .niacon  {font-size: xx-large;}
+
+#alemary2,
+#armarine2, #armarine3,
+#boyblue .niacon,
+#bugsbunny .condomstyle,
+#cartog5,
+#chesterfield .catch,
+#chesterfield .condomstyle,
+#dickens1,
+#dickens7,
+#dutchboy .condomstyle,
+#kloezov3,
+#males2,
+#niagaragel2,
+#ppilsner1,
+#reelect1,
+#rally .condomstyle,
+#wimp3, #wimp3 q {font-size: x-large;}
+
+#alemary3,
+#bugsbunny .catch,
+#bunkerhill .catch,
+#bunkerhill .climax,
+#bunkerhill .condomstyle,
+#calhoun4,
+.condomad .anticlimax,
+.condomad .condomstyle2,
+#dickens2,
+#dickens3,
+#dickens5,
+#dustbuster .condomstyle,
+#cartog2,
+#cartog6,
+#japwine2,
+#swedish .condomstyle,
+#reelect3,
+#kloezov2,
+#kloezov5,
+#males4,
+#boyblue .condomstyle,
+#boyblue .climax,
+#fruitstand1,
+#fruitstand2,
+#fruitstand3,
+#niagaragel1,
+#niagaragel4,
+#niagaragel5,
+#ppilsner4,
+#robinson .condomstyle,
+#rally .climax,
+#wimp1, #wimp2, #wimp4, #wimp5  {font-size: large;}
+
+.advertisement *,
+.condomad * {font-size: medium; background-color: white; color: black;}
+
+#alemary1,
+#robinson .phoneus,
+#bugsbunny .phoneus {font-size: small;}
+
+#alemary2, #alemary3, #niagaragel3 {font-stretch: ultra-expanded;}
+
+#dustbuster .condomstyle,
+#swedish .climax {font-stretch: ultra-condensed;}
+
+
+#calhoun2, #wimp3, #wimp3 q {background-color: white; color: #ff0000;}
+#males1, #males2, #males3, #males4,
+#males5 {background-color: white; color: #660000;}
+#kloezov5, #niagaragel3 {background-color: white; color: #00ff00;}
+#reelect2 {background-color: white; color: #ff7700;}
+#calhoun1, #calhoun4,
+#reelect3 {background-color: white; color: #0000ff;}
+
+#bunkerhill .catch,
+#calhoun2, #calhoun4,
+#chesterfield .catch,
+#chesterfield .climax,
+#chesterfield .condomstyle,
+#dustbuster .climax,
+#dutchboy .climax,
+#dustbuster .condomstyle,
+#japwine1,
+#niagaragel3,
+#wimp2, #wimp3, #wimp4, #wimp5 {font-family: utopia, roman, serif;}
+
+#alemary1, #alemary2, #alemary4,
+#armarine2, #armarine3,
+#bunkerhill .climax,
+#cartog1,
+#cartog2,
+#cartog5,
+.condomad .niacon,
+.condomad .anticlimax,
+#dickens1, #dickens3, #dickens5, #dickens6, #dickens7,
+#dutchboy .condomstyle,
+#fruitstand2, #fruitstand3,
+#japwine3, #japwine4,
+#niagaragel2, #niagaragel4,
+#ppilsner3, #ppilsner4 {font-family: roman, serif;}
+
+#niagaragel4 {font-family: "bookman l", roman, serif;}
+
+#dickens4,
+#bugsbunny .condomstyle {font-style: italic; font-family:
+	"ITC Zapf Chancery", "zapf chancery", helvetica, arial, sans-serif;}
+
+#cartog3,
+#ppilsner1 {font-variant: small-caps;}
+
+#dickens5, #dickens7 {font-style: normal;}
+
+#bunkerhill .catch,
+#bugsbunny .catch,
+#chesterfield .catch,
+#bugsbunny .catch,
+#dickens6,
+#niagaragel2 {font-style: italic;}
+
+#niagaragel4 {font-weight: lighter;}
+
+#alemary4,
+#armarine1, #armarine2, #armarine4,
+.condomad .anticlimax,
+#bugsbunny .phoneus,
+#cartog1, #cartog6,
+#dickens1, #dickens3, #dickens5, #dickens6, #dickens7, 
+#dutchboy .condomstyle,
+#bugsbunny .climax,
+#fruitstand3,
+#japwine4,
+#niagaragel4,
+#swedish .catch,
+#wimp5 {font-weight: normal;}
+
+#calhoun2, #calhoun4,
+#dickens4,
+#japwine1,
+#reelect2, #reelect3,
+#dustbuster .condomstyle {font-weight: 900;}
